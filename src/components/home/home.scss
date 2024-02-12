@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:visible;
+    font-size: 20px;
+    margin: 0;
+}
+
+.home-container {
+    background-image: url("../../assets/images/view/palworld-chikpi.png");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One', sans-serif;
+
+    .main-title {
+        font-size: 90px;
+        letter-spacing: 2px;
+        height: min-content;
+        margin-bottom: 32px;
+        color: white;
+        -webkit-text-stroke: 2px black;
+    }
+
+    .start-button {
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        width: 10em;
+        height: 2.5em;
+        font-family: 'Lilita One', sans-serif;
+    }
+
+    .start-button:hover {
+        background-color: rgb(255, 166, 0);
+        cursor: pointer;
+    }
+
+    .box-container {
+        width: 30em;
+        height: 15em;
+        border-radius: 20px;
+        background-color: rgba(198, 130, 201, 0.877);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-container {
+        opacity: 0;
+        transition: opacity 2s ease, transform 2s ease;
+      }
+      
+      .box-container.visible {
+        opacity: 1;
+      }
+}
