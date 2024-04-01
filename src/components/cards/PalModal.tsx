@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import cooling from "../../assets/images/work/cooling.png";
 import farming from "../../assets/images/work/farming.png";
 import gathering from "../../assets/images/work/gathering.png";
@@ -12,6 +12,17 @@ import planting from "../../assets/images/work/planting.png";
 import transporting from "../../assets/images/work/transporting.png";
 import watering from "../../assets/images/work/watering.png";
 
+type modalArgs = {
+  name: string;
+  imgSource: string;
+  description: string;
+  onClose: any;
+  initialSkillName: string;
+  initialSkillDescription: string;
+  stats: any;
+  suitability: any;
+};
+
 const PalModal = ({
   name,
   imgSource,
@@ -21,7 +32,7 @@ const PalModal = ({
   initialSkillDescription,
   stats,
   suitability,
-}) => {
+}: modalArgs) => {
   const palWorkImages = {
     cooling,
     farming,
@@ -47,7 +58,8 @@ const PalModal = ({
           <img src={imgSource} alt={name} />
           <div className="work-container">
             {suitability &&
-              suitability.map((item) => (
+              suitability.map((item: any) => (
+                // @ts-expect-error - TODO: define types
                 <img className="work-icons" src={palWorkImages[item.type]} />
               ))}
           </div>

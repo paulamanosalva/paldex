@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "react";
-
+// @ts-expect-error - TODO: fix types
 const PalCard = ({ name, imgSource, onClick }) => {
   return (
     <div className="card" onClick={onClick}>

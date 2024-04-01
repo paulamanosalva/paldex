@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SearchInput from "./SearchInput";
 import PalCard from "./PalCard";
 import PalModal from "./PalModal";
@@ -9,15 +9,16 @@ import "./cards.scss";
 const PalCardsContainer = () => {
   const [selectedPal, setSelectedPal] = useState(undefined);
   const [searchedPal, setSearchedPal] = useState("");
-
+  // @ts-expect-error - TODO: fix types
   const openModal = (id) => {
+    // @ts-expect-error - TODO: fix types
     setSelectedPal(parseInt(id) - 1);
   };
 
   const closeModal = () => {
     setSelectedPal(undefined);
   };
-
+  // @ts-expect-error - TODO: fix types
   const handleSearch = (value) => {
     setSelectedPal(undefined);
     setSearchedPal(value);

@@ -1,5 +1,4 @@
-import React from "react";
-
+// @ts-expect-error - TODO: define types
 const SearchInput = ({ onChange }) => {
   return (
     <input
