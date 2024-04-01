@@ -8,6 +8,8 @@ Welcome to the Paldex Interface, a project that stands as a testament to the agi
 
 Given its development as an MVP within a limited timeframe, the Paldex Interface is very much a work-in-progress. While it showcases the core functionalities and integrates with the [Palworld Paldex API](https://github.com/mlg404/palworld-paldex-api) for dynamic content, it openly invites further development, optimization, and personalization.
 
+[Preview](https://paulamanosalva.github.io/paldex/)
+
 ## Getting Involved
 
 Considering the experimental and MVP nature of the Paldex Interface, contributions are highly encouraged. Whether you're drawn to refining its code, enhancing its functionality, or correcting any oversights, your input is valuable. Fork the project, embrace its potential, and help steer its evolution.
