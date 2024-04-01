@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Paldex Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Paldex Interface, a project that stands as a testament to the agility and potential of modern web development tools. This MVP (Minimum Viable Product) was crafted in the span of a single afternoon, embodying the essence of rapid development with the goal of exploring the capabilities of Vite as an alternative to `create-react-app`.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Given its development as an MVP within a limited timeframe, the Paldex Interface is very much a work-in-progress. While it showcases the core functionalities and integrates with the [Palworld Paldex API](https://github.com/mlg404/palworld-paldex-api) for dynamic content, it openly invites further development, optimization, and personalization.
 
-## Expanding the ESLint configuration
+## Getting Involved
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Considering the experimental and MVP nature of the Paldex Interface, contributions are highly encouraged. Whether you're drawn to refining its code, enhancing its functionality, or correcting any oversights, your input is valuable. Fork the project, embrace its potential, and help steer its evolution.
 
-- Configure the top-level `parserOptions` property like this:
+## Acknowledgments
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- A nod of appreciation to the [Palworld Paldex API](https://github.com/mlg404/palworld-paldex-api) for the API data, enriching this project with dynamic content and serving as a pivotal component of this experiment.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## License
+
+This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) file for more details.
