@@ -2,6 +2,8 @@
 
 Welcome to the Paldex Interface, a project that stands as a testament to the agility and potential of modern web development tools. This MVP (Minimum Viable Product) was crafted in the span of a single afternoon, embodying the essence of rapid development with the goal of exploring the capabilities of Vite as an alternative to `create-react-app`.
 
+![home screenshot](image.png)
+
 ## Project Overview
 
 Given its development as an MVP within a limited timeframe, the Paldex Interface is very much a work-in-progress. While it showcases the core functionalities and integrates with the [Palworld Paldex API](https://github.com/mlg404/palworld-paldex-api) for dynamic content, it openly invites further development, optimization, and personalization.
